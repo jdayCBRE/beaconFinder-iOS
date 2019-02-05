@@ -7,21 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		653F237521F92A45005FE4BE /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653F237421F92A45005FE4BE /* IntroViewController.swift */; };
+		653F237821FA5BA8005FE4BE /* BeaconTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653F237721FA5BA8005FE4BE /* BeaconTableViewCell.swift */; };
+		653F237B21FA5BD5005FE4BE /* BeaconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653F237A21FA5BD5005FE4BE /* BeaconManager.swift */; };
+		653F237F21FA61E7005FE4BE /* CLProximity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653F237E21FA61E7005FE4BE /* CLProximity.swift */; };
+		653F238121FA6233005FE4BE /* NumberFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653F238021FA6233005FE4BE /* NumberFormatters.swift */; };
+		653F238421FA6878005FE4BE /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653F238321FA6878005FE4BE /* MapView.swift */; };
+		653F23A4220A1877005FE4BE /* BeaconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653F23A3220A1877005FE4BE /* BeaconView.swift */; };
+		653F23A9220A1934005FE4BE /* Beacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653F23A8220A1934005FE4BE /* Beacon.swift */; };
+		653F23AB220A194E005FE4BE /* BeaconReading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653F23AA220A194E005FE4BE /* BeaconReading.swift */; };
+		653F23AD220A197A005FE4BE /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653F23AC220A197A005FE4BE /* Coordinate.swift */; };
+		653F23AF220A19CD005FE4BE /* CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653F23AE220A19CD005FE4BE /* CGPoint.swift */; };
 		65E4795A21F78C49004D6951 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E4795921F78C49004D6951 /* AppDelegate.swift */; };
-		65E4795C21F78C49004D6951 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E4795B21F78C49004D6951 /* ViewController.swift */; };
 		65E4795F21F78C49004D6951 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65E4795D21F78C49004D6951 /* Main.storyboard */; };
 		65E4796121F78C4A004D6951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65E4796021F78C4A004D6951 /* Assets.xcassets */; };
 		65E4796421F78C4A004D6951 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65E4796221F78C4A004D6951 /* LaunchScreen.storyboard */; };
+		65E4796D21F78DA0004D6951 /* KontaktSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65E4796C21F78DA0004D6951 /* KontaktSDK.framework */; };
+		65E4797021F8C3DA004D6951 /* RangingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E4796F21F8C3DA004D6951 /* RangingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		65E4795621F78C49004D6951 /* KontaktExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KontaktExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		653F237421F92A45005FE4BE /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		653F237721FA5BA8005FE4BE /* BeaconTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconTableViewCell.swift; sourceTree = "<group>"; };
+		653F237A21FA5BD5005FE4BE /* BeaconManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconManager.swift; sourceTree = "<group>"; };
+		653F237E21FA61E7005FE4BE /* CLProximity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLProximity.swift; sourceTree = "<group>"; };
+		653F238021FA6233005FE4BE /* NumberFormatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFormatters.swift; sourceTree = "<group>"; };
+		653F238321FA6878005FE4BE /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		653F23A3220A1877005FE4BE /* BeaconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconView.swift; sourceTree = "<group>"; };
+		653F23A8220A1934005FE4BE /* Beacon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beacon.swift; sourceTree = "<group>"; };
+		653F23AA220A194E005FE4BE /* BeaconReading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconReading.swift; sourceTree = "<group>"; };
+		653F23AC220A197A005FE4BE /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		653F23AE220A19CD005FE4BE /* CGPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPoint.swift; sourceTree = "<group>"; };
+		65E4795621F78C49004D6951 /* Beacon Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beacon Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65E4795921F78C49004D6951 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		65E4795B21F78C49004D6951 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		65E4795E21F78C49004D6951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65E4796021F78C4A004D6951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65E4796321F78C4A004D6951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65E4796521F78C4A004D6951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65E4796C21F78DA0004D6951 /* KontaktSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KontaktSDK.framework; path = Carthage/Build/iOS/KontaktSDK.framework; sourceTree = "<group>"; };
+		65E4796F21F8C3DA004D6951 /* RangingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,59 +53,129 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65E4796D21F78DA0004D6951 /* KontaktSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		653F237621FA5B7A005FE4BE /* view */ = {
+			isa = PBXGroup;
+			children = (
+				653F237721FA5BA8005FE4BE /* BeaconTableViewCell.swift */,
+				653F238321FA6878005FE4BE /* MapView.swift */,
+				653F23A3220A1877005FE4BE /* BeaconView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		653F237921FA5BC0005FE4BE /* util */ = {
+			isa = PBXGroup;
+			children = (
+				653F237A21FA5BD5005FE4BE /* BeaconManager.swift */,
+				653F238021FA6233005FE4BE /* NumberFormatters.swift */,
+				653F23AC220A197A005FE4BE /* Coordinate.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		653F237C21FA61CF005FE4BE /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				653F23AE220A19CD005FE4BE /* CGPoint.swift */,
+				653F237D21FA61D6005FE4BE /* CoreLocation */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		653F237D21FA61D6005FE4BE /* CoreLocation */ = {
+			isa = PBXGroup;
+			children = (
+				653F237E21FA61E7005FE4BE /* CLProximity.swift */,
+			);
+			path = CoreLocation;
+			sourceTree = "<group>";
+		};
+		653F238221FA625D005FE4BE /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				65E4796F21F8C3DA004D6951 /* RangingViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		653F23A5220A1902005FE4BE /* model */ = {
+			isa = PBXGroup;
+			children = (
+				653F23A8220A1934005FE4BE /* Beacon.swift */,
+				653F23AA220A194E005FE4BE /* BeaconReading.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 		65E4794D21F78C49004D6951 = {
 			isa = PBXGroup;
 			children = (
-				65E4795821F78C49004D6951 /* KontaktExample */,
+				65E4795821F78C49004D6951 /* BeaconFinder */,
 				65E4795721F78C49004D6951 /* Products */,
+				65E4796B21F78DA0004D6951 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		65E4795721F78C49004D6951 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				65E4795621F78C49004D6951 /* KontaktExample.app */,
+				65E4795621F78C49004D6951 /* Beacon Finder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		65E4795821F78C49004D6951 /* KontaktExample */ = {
+		65E4795821F78C49004D6951 /* BeaconFinder */ = {
 			isa = PBXGroup;
 			children = (
+				653F23A5220A1902005FE4BE /* model */,
+				653F238221FA625D005FE4BE /* controller */,
+				653F237C21FA61CF005FE4BE /* extensions */,
+				653F237921FA5BC0005FE4BE /* util */,
+				653F237621FA5B7A005FE4BE /* view */,
 				65E4795921F78C49004D6951 /* AppDelegate.swift */,
-				65E4795B21F78C49004D6951 /* ViewController.swift */,
 				65E4795D21F78C49004D6951 /* Main.storyboard */,
 				65E4796021F78C4A004D6951 /* Assets.xcassets */,
 				65E4796221F78C4A004D6951 /* LaunchScreen.storyboard */,
 				65E4796521F78C4A004D6951 /* Info.plist */,
+				653F237421F92A45005FE4BE /* IntroViewController.swift */,
 			);
-			path = KontaktExample;
+			path = BeaconFinder;
+			sourceTree = "<group>";
+		};
+		65E4796B21F78DA0004D6951 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65E4796C21F78DA0004D6951 /* KontaktSDK.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		65E4795521F78C49004D6951 /* KontaktExample */ = {
+		65E4795521F78C49004D6951 /* Beacon Finder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65E4796821F78C4A004D6951 /* Build configuration list for PBXNativeTarget "KontaktExample" */;
+			buildConfigurationList = 65E4796821F78C4A004D6951 /* Build configuration list for PBXNativeTarget "Beacon Finder" */;
 			buildPhases = (
 				65E4795221F78C49004D6951 /* Sources */,
 				65E4795321F78C49004D6951 /* Frameworks */,
 				65E4795421F78C49004D6951 /* Resources */,
+				65E4796E21F78DAC004D6951 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = KontaktExample;
+			name = "Beacon Finder";
 			productName = KontaktExample;
-			productReference = 65E4795621F78C49004D6951 /* KontaktExample.app */;
+			productReference = 65E4795621F78C49004D6951 /* Beacon Finder.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +193,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 65E4795121F78C49004D6951 /* Build configuration list for PBXProject "KontaktExample" */;
+			buildConfigurationList = 65E4795121F78C49004D6951 /* Build configuration list for PBXProject "Beacon Finder" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +206,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				65E4795521F78C49004D6951 /* KontaktExample */,
+				65E4795521F78C49004D6951 /* Beacon Finder */,
 			);
 		};
 /* End PBXProject section */
@@ -130,13 +224,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		65E4796E21F78DAC004D6951 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/KontaktSDK.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		65E4795221F78C49004D6951 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65E4795C21F78C49004D6951 /* ViewController.swift in Sources */,
+				653F23A4220A1877005FE4BE /* BeaconView.swift in Sources */,
+				653F237F21FA61E7005FE4BE /* CLProximity.swift in Sources */,
+				653F238421FA6878005FE4BE /* MapView.swift in Sources */,
+				653F237521F92A45005FE4BE /* IntroViewController.swift in Sources */,
+				65E4797021F8C3DA004D6951 /* RangingViewController.swift in Sources */,
 				65E4795A21F78C49004D6951 /* AppDelegate.swift in Sources */,
+				653F237B21FA5BD5005FE4BE /* BeaconManager.swift in Sources */,
+				653F23AF220A19CD005FE4BE /* CGPoint.swift in Sources */,
+				653F23A9220A1934005FE4BE /* Beacon.swift in Sources */,
+				653F23AB220A194E005FE4BE /* BeaconReading.swift in Sources */,
+				653F238121FA6233005FE4BE /* NumberFormatters.swift in Sources */,
+				653F237821FA5BA8005FE4BE /* BeaconTableViewCell.swift in Sources */,
+				653F23AD220A197A005FE4BE /* Coordinate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +410,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T842BTYF5X;
-				INFOPLIST_FILE = KontaktExample/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = BeaconFinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cbre.KontaktExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cbre.BeaconFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,12 +433,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T842BTYF5X;
-				INFOPLIST_FILE = KontaktExample/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = BeaconFinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cbre.KontaktExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cbre.BeaconFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,7 +453,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		65E4795121F78C49004D6951 /* Build configuration list for PBXProject "KontaktExample" */ = {
+		65E4795121F78C49004D6951 /* Build configuration list for PBXProject "Beacon Finder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65E4796621F78C4A004D6951 /* Debug */,
@@ -326,7 +462,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		65E4796821F78C4A004D6951 /* Build configuration list for PBXNativeTarget "KontaktExample" */ = {
+		65E4796821F78C4A004D6951 /* Build configuration list for PBXNativeTarget "Beacon Finder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				65E4796921F78C4A004D6951 /* Debug */,

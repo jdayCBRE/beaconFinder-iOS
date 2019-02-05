@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:KontaktExample.xcodeproj">
+      location = "self:/Users/jday/Documents/iOS/KontaktExample/Beacon Finder.xcodeproj">
    </FileRef>
 </Workspace>
